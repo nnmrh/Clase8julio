@@ -90,11 +90,6 @@ public class App {
         // TRECE
         System.out.println(DolToPesos(200));
         // CATORCE
-        // QUINCE
-        // DIESISEIS
-        // DIECISIETE
-        
-    
 
 
     }
@@ -140,7 +135,7 @@ public class App {
     }
     public static double DKmaM(double Km)
     {
-        var M=Km*1000/3600;
+        var M=Km*100000/36080;
         return M;
           
     }
@@ -177,7 +172,7 @@ public class App {
     {
         String e;
         if(n2==0){
-           e="No se puede dividir por cero";   
+           e="No se puede divfdfdidir por cero";   
         }else{
            e=n1 + " / " + n2 + " = " +n1/n2;       
         }
